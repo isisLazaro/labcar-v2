@@ -37,3 +37,12 @@
   color: black;
   font-weight: normal;
 }
+
+.hero-body-div {
+  /* display: inline-block; */
+  border-bottom: solid white;
+}
+
+.hero-body-div-txt {
+  display: inline-block;
+}
