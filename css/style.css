@@ -1,9 +1,9 @@
 /* .navbar.is-spaced {
   padding: 2rem 3.6rem;
   background: powderblue;
-}
+} */
 
-.navbar-item img {
+/*.navbar-item img {
   max-height: 2rem;
 }
 .navbar-item {
@@ -46,3 +46,25 @@
 .hero-body-div-txt {
   display: inline-block;
 }
+
+#informacion {
+  background: #f7b617;
+  padding: 3em 1.5em 3em 0;
+  /* padding: 3rem 0rem; */
+}
+#cel-img {
+  padding: 0 5em;
+}
+
+#infoContainer {
+  border: thin solid white;
+  border-left: 0;
+  padding: 3em;
+}
+
+#txtInfo {
+  padding: 0 5em 0 1em;
+}
+/* #txtInfo p {
+  font-size: 1.4rem;
+} */
