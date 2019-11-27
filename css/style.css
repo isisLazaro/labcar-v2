@@ -10,30 +10,33 @@
   font-size: 1.12em;
   padding: 0.5rem 1.75rem;
 } */
-
-.hero {
+/* HERO SECTION */
+.hero-background {
   background: url(../img/taxi.jpg);
-  background-position: 0% 93%;
+  background-position: bottom;
   background-size: cover;
 }
 
 .hero-body {
-  padding: 0;
+  padding: 10rem 0 0;
 }
 
-#boxHero {
+.hero-box {
   background: #f7b617;
   color: white;
   box-shadow: none;
   border-radius: 0;
-  padding: 2.25rem;
-}
-
-#boxHero h2 {
   line-height: 1;
+  /* margin: 2.25rem; */
 }
 
-.button-hero {
+.hero-text {
+  /* top | horizontal | bottom  */
+  padding: 2rem 2rem 1rem;
+}
+
+.hero-button {
+  margin: 2rem 2rem 1rem;
   color: black;
   font-weight: normal;
 }
@@ -47,6 +50,7 @@
   display: inline-block;
 }
 
+/* INFO SECTION */
 #informacion {
   background: #f7b617;
   padding: 3em 1.5em 3em 0;
