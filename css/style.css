@@ -83,3 +83,25 @@
 /* #txtInfo p {
   font-size: 1.4rem;
 } */
+
+/* CONDUCE SECTION */
+.conduce-background {
+  background: url(../img/conduce.jpg), rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+.conduce-content {
+  padding: 5em 2em 9em;
+}
+
+.conduce-text {
+  line-height: 1.2;
+}
+
+.conduce-button {
+  margin: 1.2em 0;
+  background: #f7b617;
+  border-color: #f7b617;
+}
