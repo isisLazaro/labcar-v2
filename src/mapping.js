@@ -7,3 +7,13 @@ const map = new mapboxgl.Map({
   center: [-99, 19], // starting position [lng, lat]
   zoom: 5 // starting zoom
 });
+
+// Add geolocate control to the map.
+map.addControl(
+  new mapboxgl.GeolocateControl({
+    positionOptions: {
+      enableHighAccuracy: true
+    },
+    trackUserLocation: true
+  })
+);
