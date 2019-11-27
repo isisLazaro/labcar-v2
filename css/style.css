@@ -105,3 +105,12 @@
   background: #f7b617;
   border-color: #f7b617;
 }
+
+/* TARIFA SECTION */
+.tarifa-background {
+  background: #f7b617;
+}
+
+.tarifa-content {
+  padding: 0.7em 1em;
+}
