@@ -51,23 +51,28 @@
 }
 
 /* INFO SECTION */
-#informacion {
+.info-section {
   background: #f7b617;
-  padding: 3em 1.5em 3em 0;
+  padding: 3em 1em 0em;
   /* padding: 3rem 0rem; */
 }
-#cel-img {
-  padding: 0 5em;
-}
 
-#infoContainer {
+.info-container {
   border: thin solid white;
-  border-left: 0;
-  padding: 3em;
+  height: 90vw;
+  /* border-left: 0; */
+  /* padding: 3em; */
 }
 
-#txtInfo {
-  padding: 0 5em 0 1em;
+.info-title {
+  padding: 2em 0 0;
+}
+.cel-img {
+  padding: 0 3.5em;
+}
+
+.info-text {
+  padding: 2em 0 0.5em;
 }
 /* #txtInfo p {
   font-size: 1.4rem;
