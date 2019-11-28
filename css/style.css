@@ -112,12 +112,30 @@
   padding: 1em;
 }
 
-.tarifa-content {
-  /* padding: 0.7em 1em; */
+.tarifa-text {
+  padding: 0 0 1rem;
+  margin: 0 0 1rem;
 }
+
+.tarifa-form-elements {
+  margin: 1rem 0;
+}
+.tarifa-input {
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+.tarifa-input::placeholder {
+  color: white;
+}
+
+.submit-container {
+  text-align: center;
+}
+
 .map-border {
   padding: 0.5em;
-  margin: 1em;
+  margin: 4em 1em 0.5em;
   border: thin solid white;
   /* margin: 2em 2em; */
 }

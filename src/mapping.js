@@ -12,9 +12,8 @@ const map = new mapboxgl.Map({
 map.addControl(
   new mapboxgl.GeolocateControl({
     positionOptions: {
-      enableHighAccuracy: true
+      enableHighAccuracy: false
     },
-    showUserLocation: true,
     trackUserLocation: true
   })
 );
