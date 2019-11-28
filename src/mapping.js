@@ -14,6 +14,7 @@ map.addControl(
     positionOptions: {
       enableHighAccuracy: true
     },
+    showUserLocation: true,
     trackUserLocation: true
   })
 );
