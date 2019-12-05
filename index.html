@@ -169,26 +169,40 @@
     <!--CONDUCE ends-->
     <!--TARIFA starts-->
     <section id="tarifa" class="tarifa-section">
-      <p class="title has-text-white is-6 tarifa-text">Tarifas</p>
-      <p class="has-text-white tarifa-text">
+      <p class="title has-text-white is-5 tarifa-text">Tarifas</p>
+      <p class="has-text-white is-size-5 tarifa-text">
         Consulta las tarifas LabCar aquí
       </p>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Ingrese punto de partida"
-          class="input tarifa-input tarifa-form-elements"
-          name=""
-          id=""
-        />
-        <input
-          type="text"
-          placeholder="Ingrese un destino"
-          class="input tarifa-input tarifa-form-elements""
-          name=""
-          id=""
-        />
-        <div class="submit-container tarifa-form-elements"">
+      <form action="" class="tarifa-form">
+        <div class="field is-grouped tarifa-form-elements">
+          <div class="control">
+            <span><img src="./img/circulo.png" alt=""></span>
+          </div>
+          <div class="control">
+            <input
+              type="text"
+              placeholder="Ingrese punto de partida"
+              class="input tarifa-input"
+              name=""
+              id=""
+            />
+          </div>
+        </div>
+        <div class="field is-grouped tarifa-form-elements">
+            <div class="control">
+              <span><img src="./img/flecha.png" alt=""></span>
+            </div>
+            <div class="control">
+              <input
+                type="text"
+                placeholder="Ingrese un destino"
+                class="input tarifa-input "
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+        <div class="submit-container">
           <input
             type="submit"
             value="¡TRAZAR RUTA!"
