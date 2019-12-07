@@ -90,10 +90,18 @@
 
 /* CONDUCE SECTION */
 .conduce-background {
-  background: url(../img/conduce.jpg), rgba(0, 0, 0, 0.5);
+  background: url(../img/conduce.jpg);
   background-blend-mode: darken;
   background-size: cover;
-  background-position: bottom right;
+  background-position: center right;
+}
+
+.columns-labcar:last-child{
+  margin-bottom: 0rem;
+}
+
+.conduce-background-alpha {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .conduce-content {
