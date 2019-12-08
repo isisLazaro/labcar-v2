@@ -63,7 +63,7 @@
 
 .info-container {
   border: thin solid white;
-  height: 90vw;
+  /* height: 90vw; */
   /* border-left: 0; */
   /* padding: 3em; */
 }
@@ -210,6 +210,16 @@
   .is-visible-mobile{
     display: none;
   }
+  /* INFO */
+  .info-section {
+    padding: 3em 0em;
+  }
+
+  .info-container {
+    border-left: none;
+    padding: 2em;
+  }
+
   /* TARIFAS */
   .tarifa-section {
     padding: 1em 6em;
