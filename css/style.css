@@ -23,6 +23,7 @@
 
 .hero-body {
   padding: 10rem 0 0;
+  justify-content: right;
 }
 
 .hero-box {
@@ -210,6 +211,12 @@
   .is-visible-mobile{
     display: none;
   }
+
+  /* HERO */
+  .hero-text-dsktp div{
+    padding: 0 0 1.2rem;
+  }
+
   /* INFO */
   .info-section {
     padding: 3em 0em;
