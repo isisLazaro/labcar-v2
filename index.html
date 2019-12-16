@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
     /> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
     <link rel="stylesheet" href="css/mystyles.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.js"></script>
-    <link href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css" rel="stylesheet" />
+    <link
+      href="https://api.tiles.mapbox.com/mapbox-gl-js/v1.6.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css"
+      type="text/css"
+    />
     <title>lab&lt;ar</title>
   </head>
 
   <body>
     <!-- NAVBAR stars-->
-    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+    <nav
+      class="navbar is-spaced"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
         <a class="navbar-item" href="">
           <img src="./img/logo.png" alt="logo labcar" />
         </a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenuLabcar">
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarMenuLabcar"
+        >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -66,7 +90,8 @@
               <div class="is-visible-dsktp hero-text-dsktp">
                 <div class="is-size-2 has-text-weight-semibold">
                   <p>
-                    Disfruta del viaje</p>
+                    Disfruta del viaje
+                  </p>
                   <p>
                     Eres dueño de tu tiempo
                   </p>
@@ -75,7 +100,11 @@
                   <p class="is-size-4 has-text-weight-semibold">
                     Viaja con <img src="./img/logo-blanco.png" alt="" />
                   </p>
-                  <button class="button is-medium has-text-weight-semibold button-hero">REGÍSTRATE</button>
+                  <button
+                    class="button is-medium has-text-weight-semibold button-hero"
+                  >
+                    REGÍSTRATE
+                  </button>
                 </div>
                 <div>
                   <p class="has-text-weight-semibold has-text-centered">
@@ -83,7 +112,9 @@
                   </p>
                 </div>
                 <div>
-                  <button class="button is-medium has-text-weight-semibold button-hero">
+                  <button
+                    class="button is-medium has-text-weight-semibold button-hero"
+                  >
                     Conviértete en un conductor
                   </button>
                 </div>
@@ -101,11 +132,17 @@
           <div class="container info-container">
             <div class="columns is-vcentered is-gapless">
               <div class="column">
-                <p class="title has-text-white is-size-5 has-text-centered info-title is-visible-mobile">
+                <p
+                  class="title has-text-white is-size-5 has-text-centered info-title is-visible-mobile"
+                >
                   La nueva app
                 </p>
                 <figure class="cel-img">
-                  <img src="./img/celular.png" alt="imagen logo labcar en celular" width="65%" />
+                  <img
+                    src="./img/celular.png"
+                    alt="imagen logo labcar en celular"
+                    width="65%"
+                  />
                 </figure>
               </div>
               <div class="column is-visible-dsktp">
@@ -114,8 +151,7 @@
                 </h2>
                 <p class="has-text-white is-size-4">
                   La versión actualizada de LabCar está llena de nuevas
-                  funciones para llegar a donde quieras aún más fácil y
-                  rápido.
+                  funciones para llegar a donde quieras aún más fácil y rápido.
                 </p>
                 <br />
                 <p class="has-text-white is-size-4">
@@ -159,25 +195,42 @@
             Consulta las tarifas LabCar aquí
           </p>
           <form action="" class="tarifa-form">
+            <!-- <div id="geocoder"></div> -->
             <div class="field is-grouped tarifa-form-elements ">
               <div class="control">
-                <span><img src="./img/circulo.png" alt=""></span>
+                <span><img src="./img/circulo.png" alt=""/></span>
               </div>
               <div class="control">
-                <input type="text" placeholder="Ingrese punto de partida" class="input tarifa-input " name="" id="" />
+                <input
+                  type="text"
+                  placeholder="Ingrese punto de partida"
+                  class="input tarifa-input "
+                  name=""
+                  id=""
+                />
               </div>
             </div>
             <div class="field is-grouped tarifa-form-elements">
               <div class="control">
-                <span><img src="./img/flecha.png" alt=""></span>
+                <span><img src="./img/flecha.png" alt=""/></span>
               </div>
               <div class="control">
-                <input type="text" placeholder="Ingrese un destino" class="input tarifa-input " name="" id="" />
+                <input
+                  type="text"
+                  placeholder="Ingrese un destino"
+                  class="input tarifa-input "
+                  name=""
+                  id=""
+                />
               </div>
             </div>
             <!-- <div class="control"></div> -->
             <div class=" submit-container">
-              <input type="submit" value="¡TRAZAR RUTA!" class="button is-light has-text-weight-semibold tarifa-submit" />
+              <input
+                type="submit"
+                value="¡TRAZAR RUTA!"
+                class="button is-light has-text-weight-semibold tarifa-submit"
+              />
             </div>
           </form>
         </div>
@@ -195,9 +248,13 @@
         <img src="./img/logo-blanco.png" width="85vw" alt="" />
       </figure>
       <div class="columns is-gapless is-mobile is-marginless footer-content">
-        <div class="column is-one-quarter-desktop is-visible-dsktp col-footer-end">
+        <div
+          class="column is-one-quarter-desktop is-visible-dsktp col-footer-end"
+        >
           <div class="footer-content-elements">
-            <span class="icon footer-icons"><i class="fab fa-facebook-f"></i></span>
+            <span class="icon footer-icons"
+              ><i class="fab fa-facebook-f"></i
+            ></span>
             <span class="icon"><i class="fab fa-twitter"></i> </span>
             <span class="icon"><i class="fab fa-linkedin-in"></i> </span>
             <span class="icon"><i class="fab fa-apple"></i></span>
@@ -230,17 +287,29 @@
         </div>
         <div class="column is-3-desktop col-footer-end">
           <div class="footer-content-elements is-visible-mobile">
-            <span class="icon footer-icons"><i class="fab fa-facebook-f"></i></span>
+            <span class="icon footer-icons"
+              ><i class="fab fa-facebook-f"></i
+            ></span>
             <span class="icon"><i class="fab fa-twitter"></i> </span>
             <span class="icon"><i class="fab fa-linkedin-in"></i> </span>
             <span class="icon"><i class="fab fa-apple"></i></span>
             <span class="icon"><i class="fas fa-play"></i></span>
           </div>
           <figure class="footer-content-elements">
-            <img src="./img/google-play.png" width="80%" class="footer-img" alt="" />
+            <img
+              src="./img/google-play.png"
+              width="80%"
+              class="footer-img"
+              alt=""
+            />
           </figure>
           <figure class="footer-content-elements">
-            <img src="./img/app-store.png" width="80%" class="footer-img" alt="" />
+            <img
+              src="./img/app-store.png"
+              width="80%"
+              class="footer-img"
+              alt=""
+            />
           </figure>
         </div>
       </div>
@@ -251,6 +320,8 @@
     <!-- FOOTER ends -->
     <script src="./src/index.js"></script>
     <script src="./src/mapping.js"></script>
+    <!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
   </body>
-
 </html>
