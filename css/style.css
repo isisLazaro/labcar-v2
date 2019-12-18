@@ -10,7 +10,7 @@
   font-size: 1.12em;
   padding: 0.5rem 1.75rem;
 } */
-.is-visible-dsktp{
+.is-visible-dsktp {
   display: none;
 }
 
@@ -99,7 +99,7 @@
   background-position: center right;
 }
 
-.columns-labcar:last-child{
+.columns-labcar:last-child {
   margin-bottom: 0rem;
 }
 
@@ -182,6 +182,16 @@
   color: white;
 }
 
+.links a:link,
+a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #f7b617;
+}
+
 .footer-logo {
   padding: 0em 0em 1em;
 }
@@ -206,16 +216,16 @@
 }
 
 @media only screen and (min-width: 960px) {
-  .is-visible-dsktp{
+  .is-visible-dsktp {
     display: block;
   }
 
-  .is-visible-mobile{
+  .is-visible-mobile {
     display: none;
   }
 
   /* HERO */
-  .hero-text-dsktp div{
+  .hero-text-dsktp div {
     padding: 0 0 1.2rem;
   }
 
@@ -245,11 +255,11 @@
   .footer-labcar {
     padding: 3em 6em;
   }
-  .col-footer-end{
+  .col-footer-end {
     align-self: end;
   }
 
-  .footer-img{
+  .footer-img {
     width: 60%;
   }
 }
