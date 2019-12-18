@@ -57,13 +57,13 @@
       </div>
       <div id="navbarMenuLabcar" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item" href="viaja">
+          <a class="navbar-item" href="#viaja">
             Viaja
           </a>
-          <a class="navbar-item" href="conduce">
+          <a class="navbar-item" href="#conduce">
             Conduce
           </a>
-          <a class="navbar-item" href="iniciaSesion">
+          <a class="navbar-item" href="#modal-inicio-sesion">
             Inicia sesión
           </a>
         </div>
@@ -101,10 +101,23 @@
                     Viaja con <img src="./img/logo-blanco.png" alt="" />
                   </p>
                   <button
+                    id="btn-registrate"
                     class="button is-medium has-text-weight-semibold button-hero"
                   >
                     REGÍSTRATE
                   </button>
+                  <!-- MODAL starts -->
+                  <div class="modal">
+                    <div class="modal-background"></div>
+                    <div class="modal-content">
+                      <p>REGÍSTRATE</p>
+                    </div>
+                    <button
+                      class="modal-close is-large"
+                      aria-label="close"
+                    ></button>
+                  </div>
+                  <!-- MODAL ends -->
                 </div>
                 <div>
                   <p class="has-text-weight-semibold has-text-centered">
@@ -320,6 +333,7 @@
     <!-- FOOTER ends -->
     <script src="./src/index.js"></script>
     <script src="./src/mapping.js"></script>
+    <script src="./src/modal.js"></script>
     <!-- Promise polyfill script required to use Mapbox GL Geocoder in IE 11 -->
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
