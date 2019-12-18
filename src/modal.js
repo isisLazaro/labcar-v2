@@ -1,16 +1,12 @@
-const btnRegistrate = document.getElementById("btn-registrate");
-const modal = document.querySelector(".modal");
-const closeButton = document.querySelector(".modal-close");
-const modalBackground = document.querySelector(".modal-background");
-
-const toogleModal = () => {
-  modal.classList.add("is-active");
-  closeButton.addEventListener("click", () => {
-    modal.classList.remove("is-active");
+document.querySelectorAll(".button-modal").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const modal = document.querySelector(btn.getAttribute("data-target"));
+    modal.classList.add("is-active");
+    modal.querySelector(".modal-close").addEventListener("click", () => {
+      modal.classList.remove("is-active");
+    });
+    modal.querySelector(".modal-background").addEventListener("click", () => {
+      modal.classList.remove("is-active");
+    });
   });
-  modalBackground.addEventListener("click", () => {
-    modal.classList.remove("is-active");
-  });
-};
-btnRegistrate.addEventListener("click", toogleModal);
-// closeButton.addEventListener("click", toggleModal);
+});

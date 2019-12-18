@@ -101,13 +101,13 @@
                     Viaja con <img src="./img/logo-blanco.png" alt="" />
                   </p>
                   <button
-                    id="btn-registrate"
-                    class="button is-medium has-text-weight-semibold button-hero"
+                    class="button is-medium has-text-weight-semibold button-hero button-modal"
+                    data-target="#modal-registrate"
                   >
                     REGÍSTRATE
                   </button>
                   <!-- MODAL REGÍSTRATE starts -->
-                  <div class="modal">
+                  <div id="modal-registrate" class="modal">
                     <div class="modal-background"></div>
                     <div class="modal-content">
                       <p>REGÍSTRATE</p>
@@ -126,12 +126,13 @@
                 </div>
                 <div>
                   <button
-                    class="button is-medium has-text-weight-semibold button-hero"
+                    class="button is-medium has-text-weight-semibold button-hero button-modal"
+                    data-target="#modal-conductor"
                   >
                     Conviértete en un conductor
                   </button>
                   <!-- MODAL CONDUCTOR starts -->
-                  <div class="modal">
+                  <div id="modal-conductor" class="modal">
                     <div class="modal-background"></div>
                     <div class="modal-content">
                       <p>Conviértete en conductor</p>
@@ -203,7 +204,10 @@
             <p class="is-size-5 has-text-white conduce-text">
               LabCar es una opción flexible para alcanzar tus metas financieras.
             </p>
-            <button class="button has-text-white is-medium conduce-button">
+            <button
+              class="button has-text-white is-medium conduce-button button-modal"
+              data-target="#modal-conductor"
+            >
               Conviértete en conductor
             </button>
           </div>
