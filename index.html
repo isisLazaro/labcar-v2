@@ -72,32 +72,55 @@
           <!-- MODAL INICIO SESIÓN starts -->
           <div id="modal-inicio-sesion" class="modal">
             <div class="modal-background"></div>
-            <div class="card has-background-primary">
-              <div class="card-image">
+            <div class="card has-background-primary has-border-radius">
+              <div class="card-image card-image-inicio-sesion">
                 <figure class="image is-128x128">
                   <img
-                    src="./img/user-profile_1.png"
+                    src="./img/user-profile_0.png"
                     alt="default user profile image"
                   />
                 </figure>
               </div>
-              <div class="card-content">
-                <form class="has-background-grey-lighter" action="">
-                  <div class="field">
+              <div class="card-content card-content-inicio-sesion">
+                <form
+                  class="has-background-light form-inicio-sesion has-border-radius"
+                  action=""
+                >
+                  <div class="field has-addons">
+                    <div class="control">
+                      <div class="button is-static has-background-grey-lighter">
+                        <span class="icon is-small">
+                          <i class="fas fa-user"></i>
+                        </span>
+                      </div>
+                    </div>
                     <div class="control">
                       <input class="input" type="text" placeholder="Username" />
                     </div>
                   </div>
-                  <div class="field">
+                  <div class="field has-addons">
+                    <div class="control">
+                      <div class="button is-static has-background-grey-lighter">
+                        <span class="icon is-small">
+                          <i class="fas fa-lock"></i>
+                        </span>
+                      </div>
+                    </div>
                     <div class="control">
                       <input
                         class="input"
-                        type="email"
+                        type="password"
                         placeholder="Password"
                       />
                     </div>
                   </div>
-                  <button class="button">LOGGING</button>
+                  <div class="field">
+                    <div class="control has-text-centered">
+                      <button class="button has-text-white conduce-button">
+                        LOGGING
+                      </button>
+                    </div>
+                  </div>
                   <p>
                     Forgot password?
                     <span class="has-text-danger">Click Here</span>

@@ -212,6 +212,24 @@
 .footer-end {
   padding: 1.2em 0 0;
 }
+/* MODAL INICIO SESIÓN */
+.card-image-inicio-sesion {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  padding: 1rem 0;
+}
+
+.card-content-inicio-sesion {
+  padding: 1rem 9rem 2.5rem;
+}
+
+.form-inicio-sesion {
+  padding: 1.5rem;
+}
+.has-border-radius {
+  border-radius: 4px;
+}
 
 @media only screen and (min-width: 960px) {
   .is-visible-dsktp {
