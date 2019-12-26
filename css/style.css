@@ -14,6 +14,14 @@
   display: none;
 }
 
+.has-border-radius {
+  border-radius: 6px;
+}
+
+.input::placeholder {
+  color: rgb(120, 120, 120);
+}
+
 /* HERO SECTION */
 .hero-background {
   background: url(../img/taxi.jpg);
@@ -227,8 +235,22 @@
 .form-inicio-sesion {
   padding: 1.5rem;
 }
-.has-border-radius {
-  border-radius: 4px;
+
+/* MODAL REGÍSTRATE */
+.modal-content-registrate {
+  width: 500px;
+}
+
+.card-content-registrate {
+  padding: 2rem 2rem 0;
+}
+
+.card-content-registrate .field {
+  padding: 0;
+}
+
+.card-content-registrate .control {
+  padding: 0;
 }
 
 @media only screen and (min-width: 960px) {
