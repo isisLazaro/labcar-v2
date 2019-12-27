@@ -228,10 +228,6 @@
   padding: 1rem 0;
 }
 
-.card-content-inicio-sesion {
-  padding: 1rem 9rem 2.5rem;
-}
-
 .form-inicio-sesion {
   padding: 1.5rem;
 }
@@ -245,10 +241,7 @@
   padding: 2rem 2rem 0;
 }
 
-.card-content-registrate .field {
-  padding: 0;
-}
-
+.card-content-registrate .field,
 .card-content-registrate .control {
   padding: 0;
 }
@@ -299,5 +292,13 @@
 
   .footer-img {
     width: 60%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* MODAL INICIO SESION */
+  .card-content-inicio-sesion {
+    /* padding: 1rem 9rem 2.5rem; */
+    padding: 1.5rem 8.5rem;
   }
 }
