@@ -6,10 +6,7 @@
 /*.navbar-item img {
   max-height: 2rem;
 }
-.navbar-item {
-  font-size: 1.12em;
-  padding: 0.5rem 1.75rem;
-} */
+ */
 .is-visible-dsktp {
   display: none;
 }
@@ -20,6 +17,13 @@
 
 .input::placeholder {
   color: rgb(120, 120, 120);
+}
+
+/* NAVBAR */
+.navbar-end .navbar-item {
+  /* font-size: 1.12em;
+  padding: 0.5rem 1.75rem; */
+  line-height: 2;
 }
 
 /* HERO SECTION */
