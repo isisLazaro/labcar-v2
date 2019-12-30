@@ -147,263 +147,254 @@
     <!-- NAVBAR ends-->
     <!-- HERO starts-->
     <section id="viaja" class="hero is-fullheight hero-background">
-      <div class="columns is-mobile">
-        <div class="column is-10-mobile is-offset-2-mobile">
-          <!-- <div class="column is-2 is-6-desktop"></div>
-        <div class="column is-10 is-6-desktop"> -->
-          <div class="hero-body">
-            <div class="box hero-box">
-              <div class="is-visible-mobile">
-                <p class="is-size-2 has-text-weight-semibold hero-text">
-                  Comienza a viajar con
-                  <img src="./img/logo-blanco.png" width="85vw" alt="" />
+      <div class="columns is-mobile is-gapless">
+        <!-- <div class="column is-10 is-offset-2"> -->
+        <div class="column is-2-mobile is-7-tablet"></div>
+        <div class="column is-10-mobile is-5-tablet">
+          <div class="box hero-box">
+            <div class="is-visible-mobile">
+              <p class="is-size-2 has-text-weight-semibold hero-text">
+                Comienza a viajar con
+                <img src="./img/logo-blanco.png" width="85vw" alt="" />
+              </p>
+              <button class="button is-medium">
+                Descarga el App
+              </button>
+            </div>
+            <div class="is-visible-dsktp hero-text-dsktp">
+              <div class="is-size-2 has-text-weight-semibold">
+                <p>
+                  Disfruta del viaje
                 </p>
-                <button class="button is-medium hero-button">
-                  Descarga el App
-                </button>
+                <p>
+                  Eres dueño de tu tiempo
+                </p>
               </div>
-              <div class="is-visible-dsktp hero-text-dsktp">
-                <div class="is-size-2 has-text-weight-semibold">
-                  <p>
-                    Disfruta del viaje
-                  </p>
-                  <p>
-                    Eres dueño de tu tiempo
-                  </p>
-                </div>
-                <div>
-                  <p class="is-size-4 has-text-weight-semibold">
-                    Viaja con <img src="./img/logo-blanco.png" alt="" />
-                  </p>
-                  <button
-                    class="button is-medium has-text-weight-semibold button-hero button-modal"
-                    data-target="#modal-registrate"
+              <div>
+                <p class="is-size-4 has-text-weight-semibold has-space">
+                  Viaja con <img src="./img/logo-blanco.png" alt="" />
+                </p>
+                <button
+                  class="button is-medium has-text-weight-semibold button-modal"
+                  data-target="#modal-registrate"
+                >
+                  REGÍSTRATE
+                </button>
+                <!-- MODAL REGÍSTRATE starts -->
+                <div id="modal-registrate" class="modal">
+                  <div class="modal-background"></div>
+                  <div
+                    class="modal-content modal-content-registrate has-border-radius"
                   >
-                    REGÍSTRATE
-                  </button>
-                  <!-- MODAL REGÍSTRATE starts -->
-                  <div id="modal-registrate" class="modal">
-                    <div class="modal-background"></div>
-                    <div
-                      class="modal-content modal-content-registrate has-border-radius"
-                    >
-                      <div class="card has-background-grey-light">
-                        <div class="card-content">
-                          <form class="card-content-registrate" action="">
-                            <div class="field ">
-                              <div class="control">
-                                <button
-                                  class="button is-black is-fullwidth has-text-weight-semibold"
+                    <div class="card has-background-grey-light">
+                      <div class="card-content">
+                        <form class="card-content-registrate" action="">
+                          <div class="field ">
+                            <div class="control">
+                              <button
+                                class="button is-black is-fullwidth has-text-weight-semibold"
+                              >
+                                ¿Ya tienes cuenta?
+                              </button>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control has-text-centered">
+                              <p>O CREA UNA NUEVA CUENTA</p>
+                            </div>
+                          </div>
+                          <div class="field is-grouped">
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="text"
+                                placeholder="Nombre"
+                              />
+                            </div>
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="text"
+                                placeholder="Apellido"
+                              />
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="email"
+                                placeholder="Correo Electrónico: ejemplo@correo.mx"
+                              />
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="text"
+                                placeholder="Teléfono"
+                              />
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="password"
+                                placeholder="Contraseña"
+                              />
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="text"
+                                placeholder="Ciudad"
+                              />
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control is-expanded">
+                              <input
+                                class="input"
+                                type="text"
+                                placeholder="(Opcional) Código de Invitación"
+                              />
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="control is-expanded">
+                              <div class="select is-fullwidth">
+                                <select
+                                  class="has-text-weight-semibold has-text-centered"
+                                  name=""
+                                  id=""
                                 >
-                                  ¿Ya tienes cuenta?
-                                </button>
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control has-text-centered">
-                                <p>O CREA UNA NUEVA CUENTA</p>
-                              </div>
-                            </div>
-                            <div class="field is-grouped">
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="text"
-                                  placeholder="Nombre"
-                                />
-                              </div>
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="text"
-                                  placeholder="Apellido"
-                                />
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="email"
-                                  placeholder="Correo Electrónico: ejemplo@correo.mx"
-                                />
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="text"
-                                  placeholder="Teléfono"
-                                />
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="password"
-                                  placeholder="Contraseña"
-                                />
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="text"
-                                  placeholder="Ciudad"
-                                />
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control is-expanded">
-                                <input
-                                  class="input"
-                                  type="text"
-                                  placeholder="(Opcional) Código de Invitación"
-                                />
-                              </div>
-                            </div>
-                            <div class="field">
-                              <div class="control is-expanded">
-                                <div class="select is-fullwidth">
-                                  <select
-                                    class="has-text-weight-semibold has-text-centered"
-                                    name=""
-                                    id=""
+                                  <option value=""
+                                    >¿Cómo te enteraste de nosotros?</option
                                   >
-                                    <option value=""
-                                      >¿Cómo te enteraste de nosotros?</option
-                                    >
-                                    <option value=""></option>
-                                  </select>
-                                </div>
-                                <!--  -->
+                                  <option value=""></option>
+                                </select>
                               </div>
+                              <!--  -->
                             </div>
-                            <div class="field">
-                              <div class="control">
-                                <button
-                                  class="button is-fullwidth has-text-weight-semibold is-info"
-                                >
-                                  ENVIAR
-                                </button>
-                              </div>
+                          </div>
+                          <div class="field">
+                            <div class="control">
+                              <button
+                                class="button is-fullwidth has-text-weight-semibold is-info"
+                              >
+                                ENVIAR
+                              </button>
                             </div>
-                          </form>
-                        </div>
+                          </div>
+                        </form>
                       </div>
                     </div>
-                    <button
-                      class="modal-close is-large"
-                      aria-label="close"
-                    ></button>
                   </div>
-                  <!-- MODAL REGÍSTRATE ends -->
-                </div>
-                <div>
-                  <p class="has-text-weight-semibold has-text-centered">
-                    O bien
-                  </p>
-                </div>
-                <div>
                   <button
-                    class="button is-medium has-text-weight-semibold button-hero button-modal"
-                    data-target="#modal-conductor"
-                  >
-                    Conviértete en un conductor
-                  </button>
+                    class="modal-close is-large"
+                    aria-label="close"
+                  ></button>
                 </div>
+                <!-- MODAL REGÍSTRATE ends -->
               </div>
-              <!-- MODAL CONDUCTOR starts -->
-              <div id="modal-conductor" class="modal">
-                <div class="modal-background"></div>
-                <div
-                  class="modal-content has-border-radius"
-                >
-                  <div class="card has-background-grey-light">
-                    <div class="card-content">
-                      <form action="">
-                        <div class="field">
-                          <label class="label"
-                            >¿Tienes vehículo de 4 puertas?</label
+              <div>
+                <p class="has-text-weight-semibold has-text-centered has-space">
+                  O bien
+                </p>
+              </div>
+              <button
+                class="button is-medium has-text-weight-semibold button-hero button-modal"
+                data-target="#modal-conductor"
+              >
+                Conviértete en un conductor
+              </button>
+            </div>
+            <!-- MODAL CONDUCTOR starts -->
+            <div id="modal-conductor" class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content has-border-radius">
+                <div class="card has-background-grey-light">
+                  <div class="card-content">
+                    <form action="">
+                      <div class="field">
+                        <label class="label"
+                          >¿Tienes vehículo de 4 puertas?</label
+                        >
+                        <div class="control">
+                          <div class="select is-fullwidth">
+                            <select>
+                              <option>Si</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label class="label">Marca</label>
+                        <div class="control">
+                          <div class="select is-fullwidth">
+                            <select>
+                              <option>Elige marca del vehículo</option>
+                            </select>
+                          </div>
+                        </div>
+                        <p class="help">
+                          ¿No ves tu vehículo en la lista? Contáctanos
+                        </p>
+                      </div>
+                      <div class="field">
+                        <label class="label">Modelo</label>
+                        <div class="control">
+                          <div class="select is-fullwidth">
+                            <select>
+                              <option>Modelo 1</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label class="label">Año</label>
+                        <div class="control">
+                          <div class="select is-fullwidth">
+                            <select>
+                              <option>2017</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label class="label">Número de la matrícula</label>
+                        <div class="control">
+                          <input
+                            class="input"
+                            type="text"
+                            placeholder="Número de la matrícula"
+                          />
+                        </div>
+                        <p class="help">
+                          La información de la matrícula ayuda a los clientes a
+                          identificar tu vehículo
+                        </p>
+                      </div>
+                      <div class="field">
+                        <div class="control">
+                          <button
+                            class="button is-fullwidth has-text-weight-semibold is-info"
                           >
-                          <div class="control">
-                            <div class="select is-fullwidth">
-                              <select>
-                                <option>Si</option>
-                              </select>
-                            </div>
-                          </div>
+                            ENVIAR
+                          </button>
                         </div>
-                        <div class="field">
-                          <label class="label">Marca</label>
-                          <div class="control">
-                            <div class="select is-fullwidth">
-                              <select>
-                                <option>Elige marca del vehículo</option>
-                              </select>
-                            </div>
-                          </div>
-                          <p class="help">
-                            ¿No ves tu vehículo en la lista? Contáctanos
-                          </p>
-                        </div>
-                        <div class="field">
-                          <label class="label">Modelo</label>
-                          <div class="control">
-                            <div class="select is-fullwidth">
-                              <select>
-                                <option>Modelo 1</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="field">
-                          <label class="label">Año</label>
-                          <div class="control">
-                            <div class="select is-fullwidth">
-                              <select>
-                                <option>2017</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="field">
-                          <label class="label">Número de la matrícula</label>
-                          <div class="control">
-                            <input
-                              class="input"
-                              type="text"
-                              placeholder="Número de la matrícula"
-                            />
-                          </div>
-                          <p class="help">
-                            La información de la matrícula ayuda a los clientes
-                            a identificar tu vehículo
-                          </p>
-                        </div>
-                        <div class="field">
-                          <div class="control">
-                            <button
-                              class="button is-fullwidth has-text-weight-semibold is-info"
-                            >
-                              ENVIAR
-                            </button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
-                <button
-                  class="modal-close is-large"
-                  aria-label="close"
-                ></button>
               </div>
-              <!-- MODAL CONDUCTOR ends -->
+              <button class="modal-close is-large" aria-label="close"></button>
             </div>
+            <!-- MODAL CONDUCTOR ends -->
           </div>
         </div>
       </div>
